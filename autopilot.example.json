@@ -1,0 +1,31 @@
+{
+  "channels": [
+    "https://www.youtube.com/@your-channel-here"
+  ],
+  "platforms": [
+    "youtube"
+  ],
+  "post_times": [
+    "10:00",
+    "15:00",
+    "20:00"
+  ],
+  "min_score": 70,
+  "require_approval": true,
+  "videos_per_run": 1,
+  "min_source_minutes": 4,
+  "keep_source_video": false,
+  "youtube_privacy": "private",
+  "tiktok_privacy": "SELF_ONLY",
+  "min_breakout": 0,
+  "discover_keywords": [],
+  "discover_every_hours": 24,
+  "discover_auto_add": 0,
+  "clip_settings": {
+    "num_clips": 5,
+    "min_seconds": 25,
+    "max_seconds": 60,
+    "framing": "smart",
+    "quality": "standard"
+  }
+}

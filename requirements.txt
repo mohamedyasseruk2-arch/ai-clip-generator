@@ -1,0 +1,11 @@
+streamlit>=1.40
+yt-dlp>=2025.1.1
+google-genai>=1.0
+pydantic>=2
+requests>=2.31           # autopilot: posting to social platforms
+faster-whisper>=1.0      # transcription for videos without captions
+# newer builds of these two crash on Windows with a Visual C++ runtime older than 14.40
+ctranslate2>=4.4,<4.7
+onnxruntime>=1.17,<1.21
+opencv-python>=4.8,<5    # optional: smart framing (face tracking); OpenCV 5 dropped the face detector used
+pytest>=8                # tests only

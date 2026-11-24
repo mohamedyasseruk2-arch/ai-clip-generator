@@ -1,0 +1,31 @@
+{
+  "id": "example",
+  "name": "Example – Podcast Highlights",
+  "brief": "Clips must come from full episodes of the podcast published after the start date.\nThe host must be on screen or speaking for most of the clip.\nCaptions must mention the show's name and use the campaign hashtag.\nNo clips that misrepresent what a guest said or take quotes out of context.\nNo third-party logos or watermarks.",
+  "look_for": [
+    "surprising facts or strong opinions",
+    "funny exchanges between host and guest",
+    "short, self-contained stories with a clear payoff"
+  ],
+  "avoid": [
+    "quotes taken out of context",
+    "moments that depend on earlier parts of the episode",
+    "clips where neither host nor guest is the focus"
+  ],
+  "required_hashtags": ["#ExamplePodcast"],
+  "required_mentions": ["Example Podcast"],
+  "caption_language": "English",
+  "earliest_source_date": "2026-01-01",
+  "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts"],
+  "min_seconds": 20,
+  "max_seconds": 60,
+  "aspect": "9:16",
+  "framing": "smart",
+  "references": [],
+  "manual_checks": [
+    "Host or guest is the focus for the whole clip",
+    "No third-party logos on screen",
+    "Caption is accurate to what is said",
+    "Thumbnail matches the clip"
+  ]
+}

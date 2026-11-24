@@ -1,0 +1,29 @@
+# secrets
+.env
+.tokens.json
+inbox.txt
+
+# generated videos, transcripts and exports
+jobs/
+backup/old_clips/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.part
+*.ass
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# transcripts of other people's videos
+*.transcript.txt
+
+# personal settings: kept locally, not published
+autopilot.json
+campaigns/*.json
+!campaigns/example.json
+*.zip
